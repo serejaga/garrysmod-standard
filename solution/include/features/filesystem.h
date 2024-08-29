@@ -162,7 +162,7 @@ namespace FileSystem {
 		const char* sPath = LUA->CheckString(1);
 
 		if (!std::filesystem::exists(sPath)) {
-			LUA->PushBool(false);
+			LUA->PushNumber(-1);
 
 			return 1;
 		}

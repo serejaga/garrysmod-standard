@@ -82,7 +82,7 @@ namespace FileStream {
 		file.open(path, std::ios_base::binary | std::ios_base::ate);
 
 		if (!file.good()) {
-			LUA->PushNumber(0);
+			LUA->PushNumber(-1);
 
 			return 1;
 		}
