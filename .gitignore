@@ -1,0 +1,10 @@
+
+/solution/.vs
+*.sln
+*.vcxproj
+*.filters
+*.user
+/solution/solution/x64
+*.dll
+*.exp
+/solution/x64
